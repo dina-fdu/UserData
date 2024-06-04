@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.UserData {
+  background-color: #ccd1c9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #333;
+  text-align:left;
+}
+
+.UserData h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.UserData p {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.UserData .timer {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #479f41;
+}
